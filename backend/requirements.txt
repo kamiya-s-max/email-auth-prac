@@ -1,17 +1,50 @@
+# TLSホストのIDを検証しながら、SSL証明書の信頼性を検証するために、Mozillaが慎重にキュレーションしたルート証明書のコレクションを提供します
 certifi==2019.9.11
+
+# ユニバーサル文字エンコード検出器
 chardet==3.0.4
+
+# 安全性の不明なXMLを扱うときは、Pythonの組み込みのxmlモジュールではなく外部モジュールを使用することが推奨されている
 defusedxml==0.6.0
+
+# Django本体
 Django==2.2
+
+# Djangoの認証系全部のせパッケージ
 django-allauth==0.39.0
+
+# cors対応用パッケージ
 django-cors-headers==3.1.1
+
+# drfのためのauthパッケージ
 django-rest-auth==0.9.5
+
+# drf本体
 djangorestframework==3.10.3
+
+# IDNAプロトコルのサポート。Python標準ライブラリに付属している「encodings.idna」モジュールの適切な代替として機能します。
 idna==2.8
+
+# Python2.7および3.4以降のOAuthリクエスト署名ロジックの一般的な仕様準拠の完全な実装。
 oauthlib==3.1.0
+
+# postgres対応パッケージ
 psycopg2-binary==2.8.3
+
+# OpenID分散IDシステムの使用をサポートするPythonパッケージのセット
 python3-openid==3.1.0
+
+# OlsontzデータベースをPythonに取り込みます。正確でクロスプラットフォームのタイムゾーン計算が可能になります。
 pytz==2019.3
+
+# シンプルでありながらエレガントなHTTPライブラリ
 requests==2.22.0
+
+# requestsに対してファーストクラスのOAuthライブラリサポートを提供
 requests-oauthlib==1.2.0
+
+# SixはPython2および3互換性ライブラリです。両方のPythonバージョンで互換性のあるPythonコードを作成します。
 six==1.12.0
+
+# ユーザーフレンドリーなHTTPクライアント
 urllib3==1.25.6
